@@ -10,7 +10,7 @@ WiFiClient espClient;
 PubSubClient client(espClient);
 
 String settings[7] = {"", "", "", "", "", "", ""};
-char* host = "MineDuino-button";
+char* host = "Mineduino-button";
 boolean wifisetted = false;
 boolean wificonnected = false;
 int oldbuttonstate = 0;
